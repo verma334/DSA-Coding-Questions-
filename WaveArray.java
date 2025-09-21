@@ -5,8 +5,7 @@ public class WaveArray {
 	
 	void sortInWave(int arr[]){
         int n = arr.length;
-     //   int n =arr.length;
-        // swap adjacent elements
+   
         for (int i=0; i<n-1; i += 2){
             int temp = arr[i];
             arr[i] = arr[i+1];
