@@ -17,7 +17,7 @@ public class RotateArray {
 
         // Step 3: Reverse the remaining elements
         reverse(nums, k, nums.length - 1);
-    }
+    }+
 
     // Helper method to reverse elements in the array from index start to end
     public void reverse(int[] nums, int start, int end) {
