@@ -15,7 +15,7 @@ public class Majorityelement3 {
             map.put(num,map.getOrDefault(num,0)+1);
         }
 
-        for(int num : map.keySet()){
+        for(int num : map.keySet()){8
             
             if(map.get(num) > (n/3)){
                 list.add(num);
